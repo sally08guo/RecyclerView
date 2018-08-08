@@ -1,9 +1,13 @@
 # RecyclerView
 1.四种布局模式
-  垂直布局： recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-  水平布局： recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-  网格布局： recyclerView.setLayoutManager(new GridLayoutManager(this, index));
-  瀑布流：   recyclerView.setLayoutManager(new StaggeredGridLayoutManager(index, StaggeredGridLayoutManager.VERTICAL));
+  垂直布局： 
+  recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+  水平布局： 
+  recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+  网格布局： 
+  recyclerView.setLayoutManager(new GridLayoutManager(this, index));
+  瀑布流：   
+  recyclerView.setLayoutManager(new StaggeredGridLayoutManager(index, StaggeredGridLayoutManager.VERTICAL));
 2.点击事件：定义接口
   RecyclerViewAdapter:
     /**
